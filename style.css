@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ border-sizing: border-box;
+   }
+   
+   
+   body{display:flex;
+         min-height:100vh;
+		 margin:0;
+		 flex-direction: row;}
+		 
+		 
+
+ .firstcolumn{
+               background: #D7E8D4;
+               flex: 1;}
+                
+				
+
+
+        .secondcolumn {
+                          display: flex;
+                          flex-direction: column;
+                          flex: 5;
+                                                  }
+
+           header{
+                      background: yellowgreen;
+                       height: 20vh;
+                                            }
+
+           footer{
+	                     background: yellowgreen;
+                         height: 20vh;
+                                          }
+		  
+		  
+ 
+
+             .middlecontent {display: flex;
+                              flex-direction: row;}
+	
+	
+	
+               .middlecontent > article {
+                                           flex: 3;
+                                           min-height: 60vh;
+                                                                   }
+
+              .middlecontent > aside {
+                                                  background: beige;
+                                                     flex: 1; }
+
+        header, footer, article, nav, aside {
+                                                  padding: 1em;
+                                                                  }
